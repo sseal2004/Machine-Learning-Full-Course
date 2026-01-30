@@ -71,4 +71,6 @@ print()
 print("Data type of a4 elements:")
 print(a4.dtype)
 
-print("\n===== END OF PROGRAM =====")
+
+#to change or optimize the memory size
+print(a4.astype(np.int64))
