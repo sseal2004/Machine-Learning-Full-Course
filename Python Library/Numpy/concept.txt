@@ -1,0 +1,13 @@
+What is numpy?
+Ans:
+(1.)Numpy is the fundamental package for scientific computing in Python.
+(2.)It is a Python library that provides a multidimensional array object,various derived objects(such as masked arrays and matrices), and an assortment of routines for fast operations on arrays,including mathematical,logical,shape manipulation,sorting,selecting,I/O,discrete Fourier transforms,basic linear algebra,basic statistical operations,random simulation and much more.
+
+
+Numpy Arrays Vs Python Sequences
+(1)Numpy arrays have a fixed size at creation,unlike Python lists(which you can grow).Changing the size of array will create a new array and delete the original.
+(2)The elements in a Numpy array are all required to b e of the same data type,and thus will be the same size.
+(3)Numpy arrays facilates advanced mathematical and other types of operations on large numbers of data.Typically, such as operations are executed more efficiently and with less code than is possible using Python's built-in Sequences.
+(4)A growing plethora of scientific and mathematical Python-based packages are using NumPy arrays;though these typically support Python-sequence input ,they convert such input to Numpy arrayds prior to processing ,and they often NumPy arrays.
+
+(It is run by C programming language but data input is done through Python to make it simplier to understand at the same time it can be run faster.)
