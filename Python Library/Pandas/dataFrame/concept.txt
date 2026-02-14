@@ -1,0 +1,7 @@
+A pandas DataFrame is a two-dimensional, size-mutable, tabular data structure with labeled axes (rows and columns) in Python. It is similar to an Excel spreadsheet or a SQL table and is the primary data structure for data analysis and manipulation within the pandas library. 
+
+Key Components
+
+Data: The actual values within the table.
+Rows (Index): Labels that uniquely identify each row. By default, a numeric index is automatically generated starting from 0, but this can be customized.
+Columns: Labels that define each data category or variable. Each column is essentially a pandas Series. 
